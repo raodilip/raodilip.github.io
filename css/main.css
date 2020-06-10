@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-html,h1,h2,h3,h4,h5,h6,a{
+html{
  font-family: "Raleway";
+ height : 100%;
 }
+
 .navbar{ background:#F97300;}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
@@ -13,6 +15,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 .navbar-collapse{ justify-content: flex-end;}
 
 .navbar-toggler{  background:#fff !important;}
+
 .bg-dark{
 background-color:#343a40!important
 }
@@ -84,6 +87,26 @@ background-color:#007bff!important
 .about .desc p{
  line-height:2;
  color:#888;
+}
+
+.projects {
+  margin-top: 4em ;
+}
+.projects h1{
+  color:#F97300;
+  margin: 2em;
+ }
+ .projects h3{
+  color: #10828C;
+ }
+.projects> div > div > ul > li > p{
+  line-height: 2;
+  color: #888
+}
+.projects > div > div >img{
+  padding : 3em;
+  position : relative;
+  top :-21%
 }
 
 /*Portfolio*/
