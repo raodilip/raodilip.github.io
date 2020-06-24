@@ -5,13 +5,6 @@ html{
 }
 
 
-body {
-  padding-top: 50px;
-}
-.wrap {
-  height: 100%;
-  overflow: auto;
-}
 .navbar{ background:#F97300;}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
