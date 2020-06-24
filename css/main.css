@@ -91,7 +91,9 @@ background-color:#007bff!important
 }
 
 .projects {
-  margin-top: 0em ;
+  margin: 4em 0;
+    padding: 1em;
+    position: relative;
 }
 .projects h1{
   color:#F97300;
